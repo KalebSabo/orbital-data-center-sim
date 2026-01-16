@@ -10,7 +10,7 @@ By: Kaleb Sabo
 import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
-from radiative_cooling_sim import (
+from RadiativeCooling.radiative_cooling_sim import (
     equilibrium_temperature, 
     emitted_power,
     get_degraded_properties,
